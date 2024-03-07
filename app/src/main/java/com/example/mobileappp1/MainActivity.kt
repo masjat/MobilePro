@@ -15,6 +15,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.mobileappp1.ui.theme.MobileAppP1Theme
+import java.time.format.TextStyle
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,7 +38,7 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Surface (color = Color.Cyan){
         Text(
-            text = "Hello $name! How are you?",
+            text = "Hello $name! Kamu siapa?",
             modifier = Modifier.padding(24.dp)
         )
     }
